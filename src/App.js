@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom'
+import { Document } from 'react-pdf'
 import { Grid } from 'semantic-ui-react'
 import './App.css';
 import HomeContainer from './containers/HomeContainer'
@@ -36,10 +37,7 @@ class App extends Component {
           <Route exact path="/" render={(props) => <HomeContainer {...props} />} />
           <Route exact path="/blog" render={(props) => <BlogContainer {...props} />} />
           <Route exact path="/contact" render={(props) => <ContactContainer {...props} />} />
-          <Route exact path="/Resume.pdf" render={() => {
-            {'./../src/Resume.pdf'}
-            }
-          } />
+          <Route exact path="/Resume.pdf" render={() => <Document file='public/Resume.pdf' />} />
           <Route render={() => <h1>404 error<br />Page not found<br /><br />Return <Link to='/'>Home</Link></h1>} />
         </Switch>
       </Grid>
