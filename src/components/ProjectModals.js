@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Grid, Header, Icon, Modal } from 'semantic-ui-react'
+import Resume from './Resume'
 
 class ProjectModals extends React.Component {
 
@@ -129,18 +130,22 @@ class ProjectModals extends React.Component {
         open={this.state.modalOpen4}
         onClose={this.handleClose4}
         >
-        <Modal.Content>
-          <div className="resume resume-container-16x9">
-            <iframe title="Resume" src="Resume.pdf"></iframe>
-          </div>
+        <Modal.Content scrolling>
+          <Grid>
+            <Grid.Column width={2} />
+            <Grid.Column>
+              <Resume />
+            </Grid.Column>
+            <Grid.Column width={2} />
+          </Grid>
         </Modal.Content>
         <Modal.Actions>
           <Button negative onClick={this.handleClose4}>
-            <Icon color='red'>Close</Icon><Icon color='red' name='right chevron' />
+            Close
           </Button>
         </Modal.Actions>
       </Modal>
-      <a href='/Resume.pdf' target="_blank" rel="noopener noreferrer"><Button basic color='black'>Resume (for mobile)</Button></a>
+      <a href='/resume' target="_blank" rel="noopener noreferrer"><Button basic color='black'>Resume (for mobile)</Button></a>
       </Grid.Column>
     )
   }

@@ -7,6 +7,7 @@ import ContactContainer from './containers/ContactContainer'
 import BlogContainer from './containers/BlogContainer'
 import NavBar from './components/NavBar'
 import AppBar from 'material-ui/AppBar';
+import Resume from './components/Resume'
 
 class App extends Component {
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Route exact path="/" render={(props) => <HomeContainer {...props} />} />
           <Route exact path="/blog" render={(props) => <BlogContainer {...props} />} />
           <Route exact path="/contact" render={(props) => <ContactContainer {...props} />} />
+          <Route exact path="/resume" render={(props) => <Resume />} />
           <Route render={() => <h1>404 error<br />Page not found<br /><br />Return <Link to='/'>Home</Link></h1>} />
         </Switch>
       </Grid>
