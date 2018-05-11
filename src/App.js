@@ -8,7 +8,7 @@ import ContactContainer from './containers/ContactContainer'
 import BlogContainer from './containers/BlogContainer'
 import NavBar from './components/NavBar'
 import AppBar from 'material-ui/AppBar';
-import resume from './../public/Resume.pdf'
+import resume from './../Resume.pdf'
 
 class App extends Component {
 
