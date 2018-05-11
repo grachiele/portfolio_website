@@ -11,7 +11,7 @@ class Nav extends React.Component {
       <Grid.Row>
         <Drawer open={this.props.open} docked={false} onRequestChange={this.props.handleToggle}>
           <NavLink to='/'><MenuItem onClick={this.props.handleToggle}>Home</MenuItem></NavLink>
-          <NavLink to='/resume'><MenuItem onClick={this.props.handleToggle}>Home</MenuItem></NavLink>
+          <NavLink to='/resume'><MenuItem onClick={this.props.handleToggle}>Resume</MenuItem></NavLink>
           <NavLink to='/blog'><MenuItem onClick={this.props.handleToggle}>Blog</MenuItem></NavLink>
           <NavLink to='/contact'><MenuItem onClick={this.props.handleToggle}>Contact</MenuItem></NavLink>
         </Drawer>
