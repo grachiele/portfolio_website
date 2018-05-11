@@ -125,8 +125,6 @@ class ProjectModals extends React.Component {
           </Button>
         </Modal.Actions>
       </Modal>
-      <a href='/resume' rel="noopener noreferrer"><Button basic color='black'>Resume</Button></a>
-      </Grid.Column>
     )
   }
 }
