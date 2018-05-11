@@ -125,27 +125,7 @@ class ProjectModals extends React.Component {
           </Button>
         </Modal.Actions>
       </Modal>
-      <Modal
-        trigger={<Button basic color='black' onClick={this.handleOpen4}>Resume</Button>}
-        open={this.state.modalOpen4}
-        onClose={this.handleClose4}
-        >
-        <Modal.Content scrolling>
-          <Grid>
-            <Grid.Column width={2} />
-            <Grid.Column>
-              <Resume />
-            </Grid.Column>
-            <Grid.Column width={2} />
-          </Grid>
-        </Modal.Content>
-        <Modal.Actions>
-          <Button negative onClick={this.handleClose4}>
-            Close
-          </Button>
-        </Modal.Actions>
-      </Modal>
-      <a href='/resume' rel="noopener noreferrer"><Button basic color='black'>Resume (for mobile)</Button></a>
+      <a href='/resume' rel="noopener noreferrer"><Button basic color='black'>Resume</Button></a>
       </Grid.Column>
     )
   }
