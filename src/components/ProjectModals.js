@@ -125,6 +125,7 @@ class ProjectModals extends React.Component {
           </Button>
         </Modal.Actions>
       </Modal>
+      </Grid.Column>
     )
   }
 }
