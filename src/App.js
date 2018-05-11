@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom'
-import { Document } from 'react-pdf'
+import { Document } from 'react-pdf/dist/entry.webpack'
 import { Grid } from 'semantic-ui-react'
 import './App.css';
 import HomeContainer from './containers/HomeContainer'
