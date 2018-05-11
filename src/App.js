@@ -38,7 +38,7 @@ class App extends Component {
           <Route exact path="/" render={(props) => <HomeContainer {...props} />} />
           <Route exact path="/blog" render={(props) => <BlogContainer {...props} />} />
           <Route exact path="/contact" render={(props) => <ContactContainer {...props} />} />
-          <Route exact path="/Resume.pdf" render={() => <Document file={resume} />} />
+          <Route exact path="/resume" render={() => <Document file={resume} />} />
           <Route render={() => <h1>404 error<br />Page not found<br /><br />Return <Link to='/'>Home</Link></h1>} />
         </Switch>
       </Grid>
