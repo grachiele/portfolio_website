@@ -14,11 +14,8 @@ class Resume extends Component {
   }
 
   render() {
-    console.log(this.state)
 
-    var resume = !this.state.toggle ? <ResumePDF /> : <ResumeSVG />
-
-    console.log(resume)
+    const resume = !this.state.toggle ? <ResumePDF /> : <ResumeSVG />
 
     return (
       <div>
