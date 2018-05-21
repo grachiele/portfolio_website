@@ -26,6 +26,7 @@ class Resume extends Component {
           <Radio toggle label="Switch to Mobile Version" onChange={this.handleToggle}/>
         </div>
         <br />
+        <br />
         <div>
           {resume}
         </div>
