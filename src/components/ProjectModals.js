@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Grid, Header, Icon, Modal } from 'semantic-ui-react'
-import Resume from './Resume'
 
 class ProjectModals extends React.Component {
 

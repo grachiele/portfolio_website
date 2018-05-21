@@ -6,9 +6,11 @@ class ContactContainer extends React.Component{
 
   render(){
     return(
-      <Grid stackable centered>
-        <h1>Catch me on:</h1>
-        <Contact />
+      <Grid centered padded='vertically'>
+        <Grid stackable centered>
+          <h1>Catch me on:</h1>
+          <Contact />
+        </Grid>
       </Grid>
     )
   }

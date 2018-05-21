@@ -1,22 +1,35 @@
 import React, { Component } from 'react';
-import { Document, Page } from 'react-pdf';
+import ResumePDF from './ResumePDF'
+import ResumeSVG from './ResumeSVG'
+import { Radio } from 'semantic-ui-react'
 
 class Resume extends Component {
+
   state = {
-    numPages: 1,
-    pageNumber: 1,
+    toggle: false
+  };
+
+  handleToggle = (event) => {
+    this.setState({toggle: !this.state.toggle})
   }
 
   render() {
-    const { pageNumber } = this.state;
+    console.log(this.state)
+
+    var resume = !this.state.toggle ? <ResumePDF /> : <ResumeSVG />
+
+    console.log(resume)
 
     return (
-      <Document
-        file="/Resume.pdf"
-        onLoadSuccess={this.onDocumentLoad}
-      >
-        <Page pageNumber={pageNumber} />
-      </Document>
+      <div>
+        <div style={{textAlign: "center"}}>
+          <Radio toggle label="Switch to Mobile Version" onChange={this.handleToggle}/>
+        </div>
+        <br />
+        <div>
+          {resume}
+        </div>
+      </div>
     );
   }
 }

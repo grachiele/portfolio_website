@@ -27,12 +27,14 @@ class App extends Component {
 
   render() {
     return (
-      <Grid centered padded='vertically'>
-        <AppBar
-          title="Gianpaul Rachiele"
-          onLeftIconButtonTouchTap={this.handleClick}
-          />
-        <NavBar open={this.state.open} handleToggle={this.handleClick}/>
+      <React.Fragment>
+        <Grid centered padded='vertically'>
+          <AppBar
+            title="Gianpaul Rachiele"
+            onLeftIconButtonTouchTap={this.handleClick}
+            />
+            <NavBar open={this.state.open} handleToggle={this.handleClick}/>
+        </Grid>
         <Switch>
           <Route exact path="/" render={(props) => <HomeContainer {...props} />} />
           <Route exact path="/blog" render={(props) => <BlogContainer {...props} />} />
@@ -40,7 +42,7 @@ class App extends Component {
           <Route exact path="/resume" render={(props) => <Resume />} />
           <Route render={() => <h1>404 error<br />Page not found<br /><br />Return <Link to='/'>Home</Link></h1>} />
         </Switch>
-      </Grid>
+      </React.Fragment>
     );
   }
 }
