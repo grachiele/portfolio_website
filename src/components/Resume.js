@@ -1,25 +1,20 @@
-import React, { Component } from 'react';
-import { Document, Page } from 'react-pdf';
+import React from 'react';
+import ResumePDF from './ResumePDF';
+import ResumeSVG from './ResumeSVG';
 
-class Resume extends Component {
-  state = {
-    numPages: 1,
-    pageNumber: 1,
-  }
+class Resume extends React.Component {
 
-  render() {
-    const { pageNumber } = this.state;
-
-    return (
-      <Document
-        file="/Resume.pdf"
-        onLoadSuccess={this.onDocumentLoad}
-      >
-        <Page pageNumber={pageNumber} />
-      </Document>
-    );
+  render(){
+    if (this.props.mobile === true) {
+      return (
+        <ResumeSVG />
+      )
+    } else {
+      return (
+        <ResumePDF />
+      )
+    }
   }
 }
-
 
 export default Resume
