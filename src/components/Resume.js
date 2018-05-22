@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import ResumePDF from './ResumePDF';
 import ResumeSVG from './ResumeSVG';
