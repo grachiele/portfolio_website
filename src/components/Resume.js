@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ResumePDF from './ResumePDF'
-import ResumeSVG from './ResumeSVG'
-import { Radio } from 'semantic-ui-react'
+import { Radio } from 'semantic-ui-react';
+import ResumeContainer from './../containers/ResumeContainer';
 
 class Resume extends Component {
 
@@ -15,17 +14,15 @@ class Resume extends Component {
 
   render() {
 
-    const resume = !this.state.toggle ? <ResumePDF /> : <ResumeSVG />
-
     return (
       <div>
         <div style={{textAlign: "center"}}>
-          <Radio toggle label="Switch to Mobile Version" onChange={this.handleToggle}/>
+          <Radio toggle label="Switch to Mobile Version" onChange={this.handleToggle} />
         </div>
         <br />
         <br />
         <div>
-          {resume}
+          <ResumeContainer mobile={this.state.toggle} />
         </div>
       </div>
     );
