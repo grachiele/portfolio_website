@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { Component } from 'react';
 import { Radio } from 'semantic-ui-react';
 import Resume from './../components/Resume';
