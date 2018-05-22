@@ -1,6 +1,6 @@
-import React from 'react'
-import Home from '../components/Home'
-import { Grid } from 'semantic-ui-react'
+import React from 'react';
+import Home from '../components/Home';
+import { Grid } from 'semantic-ui-react';
 
 class HomeContainer extends React.Component{
 

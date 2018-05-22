@@ -1,19 +1,31 @@
-import React from 'react';
-import ResumePDF from './../components/ResumePDF';
-import ResumeSVG from './../components/ResumeSVG';
+import React, { Component } from 'react';
+import { Radio } from 'semantic-ui-react';
+import Resume from './../components/Resume';
 
-class ResumeContainer extends React.Component {
+class ResumeContainer extends Component {
 
-  render(){
-    if (this.props.mobile === true) {
-      return (
-        <ResumeSVG />
-      )
-    } else {
-      return (
-        <ResumePDF />
-      )
-    }
+  state = {
+    toggle: false
+  };
+
+  handleToggle = (event) => {
+    this.setState({toggle: !this.state.toggle})
+  }
+
+  render() {
+
+    return (
+      <div>
+        <div style={{textAlign: "center"}}>
+          <Radio toggle label="Switch to Mobile Version" onChange={this.handleToggle} />
+        </div>
+        <br />
+        <br />
+        <div>
+          <Resume mobile={this.state.toggle} />
+        </div>
+      </div>
+    );
   }
 }
 
