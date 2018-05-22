@@ -53,7 +53,7 @@ class Blog extends React.Component {
       )
     } else {
       return(
-        null
+        <h1> Blog Posts </h1>
       )
     }
   }

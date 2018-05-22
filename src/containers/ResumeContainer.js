@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 import { Radio } from 'semantic-ui-react';
 import Resume from './../components/Resume';
@@ -30,4 +31,25 @@ class ResumeContainer extends Component {
 }
 
 
+=======
+import React from 'react';
+import ResumePDF from './../components/ResumePDF';
+import ResumeSVG from './../components/ResumeSVG';
+
+class ResumeContainer extends React.Component {
+
+  render(){
+    if (this.props.mobile === true) {
+      return (
+        <ResumeSVG />
+      )
+    } else {
+      return (
+        <ResumePDF />
+      )
+    }
+  }
+}
+
+>>>>>>> master
 export default ResumeContainer
