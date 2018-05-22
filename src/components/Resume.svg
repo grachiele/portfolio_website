@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -190,6 +191,7 @@
                id="tspan62"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="mailto:gianpaul.rachiele@gmail.com">
 <text
              id="text64"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -197,6 +199,7 @@
                id="tspan66"
                y="0"
                x="0 7.4124756 10.373566 17.786041 25.198517 32.610992 40.023468 47.435944 50.397034 54.100006 58.538391 65.950867 72.614929 80.027405 82.988495 90.40097 93.362061 100.77454 114.30441 121.71689 132.81931 140.23178 143.1929 146.15396 149.85696 156.52103 163.9335">gianpaul.rachiele@gmail.com</tspan></text>
+             </a>
 <text
              id="text68"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -218,6 +221,7 @@
                id="tspan78"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://github.com/grachiele">
 <text
              id="text80"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -225,6 +229,7 @@
                id="tspan82"
                y="0"
                x="0 10.367065 13.328125 17.031128 26.656281 34.068756">GitHub</tspan></text>
+             </a>
 <text
              id="text84"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -246,6 +251,7 @@
                id="tspan94"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://medium.com/@gianpaul.r">
 <text
              id="text96"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -253,6 +259,7 @@
                id="tspan98"
                y="0"
                x="0 11.102448 18.514923 25.927399 28.888458 36.300934">Medium</tspan></text>
+             </a>
 <text
              id="text100"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -274,6 +281,7 @@
                id="tspan110"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="www.gianpaulrachiele.com">
 <text
              id="text112"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -281,6 +289,7 @@
                id="tspan114"
                y="0"
                x="0 9.6251221 19.250305 28.875488 32.57843 39.990906 42.952026 50.364502 57.776978 65.189453 72.601929 80.014404 82.975464 87.413818 94.826294 101.49036 108.90283 111.86395 119.27643 122.23755 129.65002 133.35297 140.01703 147.4295">www.gianpaulrachiele.com</tspan></text>
+             </a>
 <path
              id="path116"
              style="fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -365,6 +374,7 @@
                id="tspan178"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://github.com/grachiele/tutor_app_frontend">
 <text
              id="text180"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -372,6 +382,7 @@
                id="tspan182"
                y="0"
                x="0 8.1413574 12.579727 19.992203 27.404678 31.107666 38.520142 45.932617 53.345093 57.04808 67.415131 70.376221 74.079208 83.704361 91.116837 98.529312 102.2323 111.85745 119.26993 126.68239">Frontend GitHub Repo</tspan></text>
+             </a>
 <text
              id="text184"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -386,6 +397,7 @@
                id="tspan190"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://github.com/grachiele/tutor_app_backend">
 <text
              id="text192"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -393,6 +405,7 @@
                id="tspan194"
                y="0"
                x="0 8.8897705 16.302246 22.966309 29.630371 37.042847 44.455322 51.867798 55.57077 65.937805 68.898926 72.601898 82.227051 89.639526 97.052002 100.755 110.38013 117.7926 125.20508">Backend GitHub Repo</tspan></text>
+             </a>
 <text
              id="text196"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -414,6 +427,7 @@
                id="tspan206"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://www.youtube.com/watch?v=mZntF0vnvvI">
 <text
              id="text208"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -421,6 +435,7 @@
                id="tspan210"
                y="0"
                x="0 9.6251526 17.037628 28.140076">Demo</tspan></text>
+             </a>
 <text
              id="text212"
              style="font-style:italic;font-variant:normal;font-size:13.32999992px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -503,6 +518,7 @@
                id="tspan264"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://github.com/grachiele/rails-project-mode-web-071717">
 <text
              id="text266"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -510,6 +526,7 @@
                id="tspan268"
                y="0"
                x="0 10.36705 13.32814 17.031128 26.656281 34.068756 41.481232 45.184219 54.809372 62.221848 69.634323">GitHub Repo</tspan></text>
+             </a>
 <text
              id="text270"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -531,6 +548,7 @@
                id="tspan280"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://tekcit-movies.herokuapp.com/">
 <text
              id="text282"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -538,6 +556,7 @@
                id="tspan284"
                y="0"
                x="0 9.6251526 17.037628 28.14006">Demo</tspan></text>
+             </a>
 <text
              id="text286"
              style="font-style:italic;font-variant:normal;font-size:13.32999992px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -634,6 +653,7 @@
                id="tspan346"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://github.com/bperl/module-one-final-project-guidelines-web-071717">
 <text
              id="text348"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -641,6 +661,7 @@
                id="tspan350"
                y="0"
                x="0 10.36705 13.32814 17.031128 26.656281 34.068756 41.481232 45.184219 54.809372 62.221848 69.634323">GitHub Repo</tspan></text>
+             </a>
 <text
              id="text352"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:Gautami;-inkscape-font-specification:Gautami;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -662,6 +683,7 @@
                id="tspan362"
                y="0"
                x="0">​</tspan></text>
+<a xlink:href="https://www.youtube.com/watch?v=2E3oana8Yfw">
 <text
              id="text364"
              style="font-variant:normal;font-weight:normal;font-size:13.32999992px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#1155cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -669,6 +691,7 @@
                id="tspan366"
                y="0"
                x="0 9.6251526 17.037628 28.14006">Demo</tspan></text>
+            </a>
 <text
              id="text368"
              style="font-style:italic;font-variant:normal;font-size:13.32999992px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
