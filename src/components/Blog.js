@@ -28,7 +28,7 @@ class Blog extends React.Component {
   }
 
   render(){
-    if (this.state.items){
+    if (this.state.items !== []){
       const newItems = this.state.items.map((item) => {
         return (
           <Grid.Column key={item.guid} textAlign='center' width={12}>
@@ -51,7 +51,7 @@ class Blog extends React.Component {
           {newItems}
         </Grid>
       )
-    } else {
+    } else if (this.state.items === []){
       return(
         <h1> Blog Posts </h1>
       )

@@ -14,6 +14,7 @@ class Nav extends React.Component {
           <NavLink to='/resume'><MenuItem onClick={this.props.handleToggle}>Resume</MenuItem></NavLink>
           <NavLink to='/blog'><MenuItem onClick={this.props.handleToggle}>Blog</MenuItem></NavLink>
           <NavLink to='/contact'><MenuItem onClick={this.props.handleToggle}>Contact</MenuItem></NavLink>
+          <NavLink to='https://www.codewars.com/users/grachiele'target="__blank"><MenuItem onClick={this.props.handleToggle}><embed src="https://www.codewars.com/users/grachiele/badges/micro"  /></MenuItem></NavLink>
         </Drawer>
       </Grid.Row>
     );
